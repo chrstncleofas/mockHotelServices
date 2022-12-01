@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   background: maroon !important;
   background: linear-gradient(to right, #0062e6, #33aeff);

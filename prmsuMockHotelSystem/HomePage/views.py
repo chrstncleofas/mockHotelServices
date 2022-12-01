@@ -11,3 +11,6 @@ def login(request):
 def register(request):
     return render(request, 'HomePage/register.html')
 
+def listroom(request):
+    return render(request, 'HomePage/listroom.html')
+
