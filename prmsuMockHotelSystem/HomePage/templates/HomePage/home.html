@@ -22,10 +22,18 @@
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
           <li><a href="{% url 'home' %}" class="nav-link px-2 text-secondary">Home</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Reports</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Features</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Room Section</a>
+              <a class="dropdown-item" href="#">Reports</a>
+              <a class="dropdown-item" href="#">Not Available</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Not Available</a>
+            </div>
+          </li>
           <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-          <li><a href="{% url 'listroom' %}" class="nav-link px-2 text-white">List All Rooms</a></li>
+          <li><a href="{% url 'listroom' %}" class="nav-link px-2 text-white">Rooms</a></li>
         </ul>
 
         <div class="text-end">
@@ -40,7 +48,7 @@
     <div class="container py-5">
       <h1 class="display-5 fw-bold">Welcome to out Mock Hotel System</h1>
       <p class="col-md-8 fs-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur ullam unde velit totam aliquid nobis ducimus rem! Minima recusandae quas aspernatur cumque eius, beatae quae voluptates? Minima, sapiente!</p>
-      <button class="btn btn-primary btn-lg" type="button">Example button</button>
+      <button class="btn btn-primary btn-lg" type="button">View More</button>
     </div>
   </div>
 
@@ -50,14 +58,14 @@
         <div class="h-100 p-5 text-white bg-dark rounded-3">
           <h2>Working on this Page</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores reprehenderit distinctio animi. Fuga, delectus voluptatem repellat, cupiditate maiores molestiae autem quod sequi commodi dolor numquam.</p>
-          <button class="btn btn-outline-light" type="button">Example button</button>
+          <button class="btn btn-outline-light" type="button">View More</button>
         </div>
       </div>
       <div class="col-md-6">
         <div class="h-100 p-5 bg-light border rounded-3">
           <h2>Working on this Page</h2>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, modi! Officiis explicabo nemo perferendis, velit soluta asperiores dolor aliquid aspernatur doloribus maiores debitis, cum facere.</p>
-          <button class="btn btn-outline-secondary" type="button">Example button</button>
+          <button class="btn btn-outline-secondary" type="button">View More</button>
         </div>
       </div>
     </div>
