@@ -14,3 +14,6 @@ def register(request):
 def listroom(request):
     return render(request, 'HomePage/listroom.html')
 
+def gallery(request):
+    return render(request, 'HomePage/gallery.html')
+
